@@ -1,0 +1,6 @@
+D:\Telerik\JS Applications\Exercise\6.Consuming-Remote-Data\1.HTTPRequestModule\bin\1.HTTPRequestModule.dll.config
+D:\Telerik\JS Applications\Exercise\6.Consuming-Remote-Data\1.HTTPRequestModule\bin\1.HTTPRequestModule.dll
+D:\Telerik\JS Applications\Exercise\6.Consuming-Remote-Data\1.HTTPRequestModule\bin\1.HTTPRequestModule.pdb
+D:\Telerik\JS Applications\Exercise\6.Consuming-Remote-Data\1.HTTPRequestModule\obj\Debug\1.HTTPRequestModule.csprojResolveAssemblyReference.cache
+D:\Telerik\JS Applications\Exercise\6.Consuming-Remote-Data\1.HTTPRequestModule\obj\Debug\1.HTTPRequestModule.dll
+D:\Telerik\JS Applications\Exercise\6.Consuming-Remote-Data\1.HTTPRequestModule\obj\Debug\1.HTTPRequestModule.pdb
