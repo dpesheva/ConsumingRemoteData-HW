@@ -1,55 +1,75 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Application for managing students</title>
-	<script src="jquery-2.0.2.js"></script>
-	<style type="text/css">
-		.info{
-			font-size: 0.9em;
-			font-style: italic;
-			border: 1px solid orange;
-			display: block;
-			padding:5px 15px;
-			width: 250px;
-			margin: 0 auto;
-			text-indent: 0;
-		}
+    <title>Application for managing students</title>
+    <script src="jquery-2.0.2.js"></script>
+    <style type="text/css">
+        .info {
+            font-size: 0.9em;
+            font-style: italic;
+            border: 1px solid orange;
+            display: block;
+            padding: 5px 15px;
+            width: 250px;
+            margin: 0 auto;
+            text-indent: 0;
+        }
 
-		.message.success{
-			color: green;
-		}
-		.message.error{
-			color: red;
-		}
-		.message.error, .message.success{
-			display: none;
-		}
+        .message.success {
+            color: green;
+        }
 
-		.student-item strong:before{
-			content: 'Name: ';
-		}
+        .message.error {
+            color: red;
+        }
 
-		.student-item span:before{
-			content: ', Grade: ';
-		}
-	</style>
+        .message.error, .message.success {
+            display: none;
+        }
+
+        .student-item strong:before {
+            content: 'Name: ';
+        }
+
+        .student-item .student-grade:before {
+            content: ', Grade: ';
+        }
+
+        .student-item .student-id:before {
+            content: ', Id: ';
+        }
+
+        div:not(.messages) {
+            display: inline-block;
+            padding: 15px;
+        }
+    </style>
 </head>
 <body>
-	<label for="tb-name">Name: </label>
-	<input id="tb-name" name="tb-name" type="text" />
-	<br/>
-	<label for="tb-grade">Grade: </label>
-	<input id="tb-grade" name="tb-grade" type="number" min='1' max='12'/>
-	<br/>
-	<button id='btn-add-student'>Add new</button>
-	<div class="messages">
-		<strong class="message success">
-		</strong>
-		<strong class="message error">
-		</strong>
-	</div>
-	<div id="students-container"></div>
-	<script src="scripts.js">	</script>
-	<p class='info'>This web page should be run on a server (localhost or in WWW).</p>
+    <div>
+        <label for="tb-name">Name: </label>
+        <input id="tb-name" name="tb-name" type="text" />
+        <br />
+        <label for="tb-grade">Grade: </label>
+        <input id="tb-grade" name="tb-grade" type="number" min='1' max='12' />
+        <br />
+        <button id='btn-add-student'>Add new</button>
+    </div>
+    <div>
+        <label for="tb-id">Student's ID: </label>
+        <input id="tb-id" name="tb-id" type="number" min='1' max='100' />
+        <br />
+        <button id='btn-delete-student'>Delete student</button>
+    </div>
+    <div class="messages">
+        <strong class="message success">
+        </strong>
+        <strong class="message error">
+        </strong>
+    </div>
+    <div id="students-container"></div>
+    <script src="module.js"></script>
+    <script src="scripts.js">	</script>
+    <p class='info'>This web page should be run on a server (localhost or in WWW).</p>
 </body>
 </html>

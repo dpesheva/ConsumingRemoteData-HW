@@ -67,7 +67,7 @@
   <ItemGroup>
     <Content Include="http-request.html" />
     <Content Include="scripts\jquery.min.js" />
-    <Content Include="scripts\modul.js" />
+    <Content Include="scripts\module.js" />
     <Content Include="scripts\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>

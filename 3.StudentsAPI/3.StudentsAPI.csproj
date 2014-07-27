@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="jquery-2.0.2.js" />
+    <Content Include="module.js" />
     <Content Include="studentSystem.html" />
     <Content Include="scripts.js" />
     <Content Include="Web.config" />
